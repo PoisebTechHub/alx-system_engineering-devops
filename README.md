@@ -1,1 +1,1 @@
-Task 0. Where am I?
+echo "0x00. Shell, basics"
