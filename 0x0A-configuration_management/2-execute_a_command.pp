@@ -5,3 +5,4 @@ exec { 'killing a process using pkill':
   onlyif   => 'pgrep killmenow',
   provider => shell,
 }
+
