@@ -12,3 +12,4 @@ package { 'Werkzeug': # package to be installed
   ensure   => '2.1.1', # installation of the latest version of package
   provider   => 'pip3', # provider to install package
 }
+
