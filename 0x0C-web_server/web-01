@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Using ssh to connect to your server using the private key
+# Key -i ~/.ssh/poiseb_tech_hub with the user ubuntu
+
+eval $("ssh-agent")
+
+ssh ubuntu@100.26.157.127 -i ~/alx-system_engineering-devops/0x0B-ssh/school
